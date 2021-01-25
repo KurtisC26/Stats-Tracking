@@ -1,14 +1,6 @@
 // Your web app's Firebase configuration
  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // var firebaseConfig = {
-//    apiKey: "AIzaSyCMjU32FgagalUFdkR-xI1eAdIR-ktPohA",
-//    authDomain: "news-app-fafd2.firebaseapp.com",
-//    databaseURL: "https://news-app-fafd2.firebaseio.com",
-//    projectId: "news-app-fafd2",
-//    storageBucket: "news-app-fafd2.appspot.com",
-//    messagingSenderId: "925549128221",
-//    appId: "1:925549128221:web:2c0f3d3b5419a31282f4f4",
-//    measurementId: "G-LYBKPMWD6J"
 //  };
 //  // Initialize Firebase
 // firebase.initializeApp(firebaseConfig);
@@ -32,7 +24,6 @@ $('#submit').on('click', function(e) {
     var opponent = $(".add-opponent").val();
     // var rank = $(".add-rank").val();
     // var arena = $(".add-arena").val();
-
     var type = $(".add-type").val();
     var start = $(".add-flow-start").val();
     var play_type = $(".add-shot-play-type").val();
