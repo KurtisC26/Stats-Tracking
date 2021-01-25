@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Test</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-light  fixed-top " style="background-color: #AFB1AE;">
+      <a class="navbar-brand" href="index.html">
+        <img src="LMU.png" width="90" height="40" class="d-inline-block align-top" alt="">
+        Men's Basketball
+      </a>
+      <a href="instructions.html" class="navbar-brand">Instructions</a>
+    </nav>
+
+    <div class="tile" id="tile-1">
+        <div class="addjob tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <h2 class="title">LMUMBB PBP Stats Tracker</h2>
+            <div class="card">
+              <div class="card-header" >
+                 <h2 class="title">LMUMBB PBP Stats Tracker</h2>
+              </div>
+              <form name="dataform" method="post">
+<div class="row">
+  <h4>For instructions and details: <a href="instructions.html" class="navbar-brand">Instructions</a></h4>
+
+</div>
+
+<div class="row">
+                <div class="col">
+                  <label for="inputState">Opponent</label>
+                  <select id="inputState" class="form-control add-opponent">
+                    <option> - </option>
+                    <option>  Practice </option>
+                    <option>  Anderson </option>
+                    <option> Carson Newman </option>
+                    <option> Catawba </option>
+                    <option>  Coker </option>
+                    <option> Lenoir Rhyne</option>
+                    <option>  Mars Hill </option>
+                    <option>  Newberry </option>
+                    <option>  Tusculum </option>
+                    <option>  Wingate </option>
+                    <option> Queens </option>
+                    <option> Non-Conf Top 25 </option>
+                    <option> Non-Conf Other </option>
+                  </select>
+                </div>
+                <!-- <div class="col">
+                  <label for="inputState">Arena</label>
+                  <select id="inputState" class="form-control add-arena">
+                    <option> - </option>
+                    <option> Home </option>
+                    <option> Away </option>
+                    <option> Neutral </option>
+                  </select>
+                </div>
+                <div class="col">
+                  <label for="inputState"> Opponent National Ranking</label>
+                  <select id="inputState" class="form-control add-rank">
+                    <option> - </option>
+                    <option> 1-10</option>
+                    <option> 11-20</option>
+                    <option> 20-25 </option>
+                    <option> Receives Votes</option>
+                    <option> Not Ranked</option>
+                  </select>
+                </div> -->
+</div>
+
+
+
+
+<div class="row">
+                <div class="col">
+                  <label for="inputState">P1</label>
+                    <select id="inputState" class="form-control add-pg">
+                      <option> - </option>
+                      <option> 0 - Jeremiah Keene</option>
+                      <option> 2 - Devin Whitfield </option>
+                      <option> 3 - Luke Bartems </option>
+                      <option> 4 - Julius Brown </option>
+                      <option> 5 - Alex Dahling </option>
+                      <option> 11 - Chase Rankin </option>
+                      <option> 13 - Xavier Bledson </option>
+                      <option> 14 - Jordan Walters </option>
+                      <option> 20 - Shaquile Rombley </option>
+                      <option> 21 - Tyler Mckinley </option>
+                      <option> 23 - Simon Wilbar </option>
+                      <option> 24 - Me'Kell Burries </option>
+                      <option> 25 - Luke Hedrick </option>
+                      <option> 32 - Jordan Guest </option>
+                      <option> 35 - Cam Henry </option>
+                    </select>
+                </div>
+                <div class="col">
+                  <label for="inputState">P2</label>
+                    <select id="inputState" class="form-control add-sg">
+                      <option> - </option>
+                      <option> 0 - Jeremiah Keene</option>
+                      <option> 2 - Devin Whitfield </option>
+                      <option> 3 - Luke Bartems </option>
+                      <option> 4 - Julius Brown </option>
+                      <option> 5 - Alex Dahling </option>
+                      <option> 11 - Chase Rankin </option>
+                      <option> 13 - Xavier Bledson </option>
+                      <option> 14 - Jordan Walters </option>
+                      <option> 20 - Shaquile Rombley </option>
+                      <option> 21 - Tyler Mckinley </option>
+                      <option> 23 - Simon Wilbar </option>
+                      <option> 24 - Me'Kell Burries </option>
+                      <option> 25 - Luke Hedrick </option>
+                      <option> 32 - Jordan Guest </option>
+                      <option> 35 - Cam Henry </option>
+                    </select>
+                </div>
+                <div class="col">
+                  <label for="inputState">P3</label>
+                    <select id="inputState" class="form-control add-sf">
+                      <option> - </option>
+                      <option> 0 - Jeremiah Keene</option>
+                      <option> 2 - Devin Whitfield </option>
+                      <option> 3 - Luke Bartems </option>
+                      <option> 4 - Julius Brown </option>
+                      <option> 5 - Alex Dahling </option>
+                      <option> 11 - Chase Rankin </option>
+                      <option> 13 - Xavier Bledson </option>
+                      <option> 14 - Jordan Walters </option>
+                      <option> 20 - Shaquile Rombley </option>
+                      <option> 21 - Tyler Mckinley </option>
+                      <option> 23 - Simon Wilbar </option>
+                      <option> 24 - Me'Kell Burries </option>
+                      <option> 25 - Luke Hedrick </option>
+                      <option> 32 - Jordan Guest </option>
+                      <option> 35 - Cam Henry </option>
+                    </select>
+                </div>
+                <div class="col">
+                  <label for="inputState">P4</label>
+                    <select id="inputState" class="form-control add-pf">
+                      <option> - </option>
+                      <option> 0 - Jeremiah Keene</option>
+                      <option> 2 - Devin Whitfield </option>
+                      <option> 3 - Luke Bartems </option>
+                      <option> 4 - Julius Brown </option>
+                      <option> 5 - Alex Dahling </option>
+                      <option> 11 - Chase Rankin </option>
+                      <option> 13 - Xavier Bledson </option>
+                      <option> 14 - Jordan Walters </option>
+                      <option> 20 - Shaquile Rombley </option>
+                      <option> 21 - Tyler Mckinley </option>
+                      <option> 23 - Simon Wilbar </option>
+                      <option> 24 - Me'Kell Burries </option>
+                      <option> 25 - Luke Hedrick </option>
+                      <option> 32 - Jordan Guest </option>
+                      <option> 35 - Cam Henry </option>
+                    </select>
+                </div>
+                <div class="col">
+                  <label for="inputState">P5</label>
+                    <select id="inputState" class="form-control add-c">
+                      <option> - </option>
+                      <option> 0 - Jeremiah Keene</option>
+                      <option> 2 - Devin Whitfield </option>
+                      <option> 3 - Luke Bartems </option>
+                      <option> 4 - Julius Brown </option>
+                      <option> 5 - Alex Dahling </option>
+                      <option> 11 - Chase Rankin </option>
+                      <option> 13 - Xavier Bledson </option>
+                      <option> 14 - Jordan Walters </option>
+                      <option> 20 - Shaquile Rombley </option>
+                      <option> 21 - Tyler Mckinley </option>
+                      <option> 23 - Simon Wilbar </option>
+                      <option> 24 - Me'Kell Burries </option>
+                      <option> 25 - Luke Hedrick </option>
+                      <option> 32 - Jordan Guest </option>
+                      <option> 35 - Cam Henry </option>
+                    </select>
+                </div>
+</div>
+
+
+
+                <div class="row">
+
+                  <br>
+                  <div class="col">
+                    <label for="inputState">Pos Type</label>
+                    <select id="inputState" class="form-control add-type">
+                      <option> - </option>
+                      <option>  Offense </option>
+                      <option>  Defense </option>
+                    </select>
+                  </div>
+
+                  <div class="col">
+                    <label for="inputState">Pos Start</label>
+                      <select id="inputState" class="form-control add-flow-start">
+                        <option> - </option>
+                        <option> First Half Start</option>
+                        <option> Second Half Start</option>
+                        <option> Live Turnover </option>
+                        <option> Dead-Ball from Turnover </option>
+                        <option> Dead-Ball </option>
+                        <option> Defensive Rebound </option>
+                        <option> Offensive Rebound </option>
+                        <option> Bucket Scored </option>
+                        <option> ATO </option>
+                      </select>
+                  </div>
+
+                  <div class="col">
+                    <label for="inputState">Play Developement</label>
+                      <select id="inputState" class="form-control add-shot-play-type">
+                        <option> - </option>
+                        <option> No Play (End / Intentional Foul)</option>
+                        <option> Transition </option>
+                        <option> Transition into Advantage</option>
+                        <option> Transition into Half-Court</option>
+                        <option> Half Court Set </option>
+                        <option> Half Court Set into flow</option>
+                        <option> Half Court Set into ISO</option>
+                        <option> Flow Offense </option>
+                        <option> Isolation </option>
+                        <option> OOBU into flow</option>
+                        <option> OOBU into ISO</option>
+                        <option> SOB into Flow</option>
+                        <option> SOB into ISO</option>
+                      </select>
+                  </div>
+
+                  <div class="col">
+                    <label for="inputState">Play Movement</label>
+                      <select id="inputState" class="form-control add-movement">
+                        <option> - </option>
+                        <option> Paint + Keep </option>
+                        <option> Paint + Pass </option>
+                        <option> No Paint </option>
+                      </select>
+                  </div>
+
+                  <div class="col">
+                    <label for="inputState">Passes</label>
+                      <select id="inputState" class="form-control add-passes">
+                        <option> - </option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                      </select>
+                  </div>
+
+
+      </div>
+<br>
+
+<div class="row">
+
+      <div class="col">
+        <label for="inputState"> Shot Selection</label>
+          <select id="inputState" class="form-control add-shot-selection">
+            <option> - </option>
+            <option> No Shot (Shot Clock)</option>
+            <option> No Shot (Turnover)</option>
+            <option> Open Rim </option>
+            <option> Contested Rim </option>
+            <option> Open Paint </option>
+            <option> Contested Paint </option>
+            <option> Open Long Two </option>
+            <option> Contested Long Two </option>
+            <option> Open Three </option>
+            <option> Contested Three </option>
+          </select>
+      </div>
+      <div class="col">
+        <label for="inputState">Shot Location</label>
+          <select id="inputState" class="form-control add-location">
+            <option> - </option>
+            <option> Right Corner </option>
+            <option> Right Wing </option>
+            <option> Middle Lane </option>
+            <option> Left Wing </option>
+            <option> Left Corner </option>
+          </select>
+      </div>
+      <div class="col">
+        <label for="inputState">Play Result</label>
+          <select id="inputState" class="form-control add-shot-result">
+            <option> - </option>
+            <option> No Shot (Turnover) </option>
+            <option> No Shot (Shot Clock) </option>
+            <option> Intentional Foul (Bonus)</option>
+            <option> Intentional Foul (Double Bonus)</option>
+            <option> Make </option>
+            <option> Make & Fouled </option>
+            <option> Miss </option>
+            <option> Miss (Blocked)</option>
+            <option> Miss & Fouled </option>
+          </select>
+      </div>
+      <div class="col">
+        <label for="inputState">Points</label>
+          <select id="inputState" class="form-control add-points">
+            <option> - </option>
+            <option> 0 </option>
+            <option> 1 </option>
+            <option> 2 </option>
+            <option> 3 </option>
+            <option> 4 </option>
+            <option> 5 </option>
+          </select>
+      </div>
+      <div class="col">
+        <label for="inputState">Player with Action</label>
+          <select id="inputState" class="form-control add-player">
+            <option> - </option>
+            <option> 0 - Jeremiah Keene</option>
+            <option> 2 - Devin Whitfield </option>
+            <option> 3 - Luke Bartems </option>
+            <option> 4 - Julius Brown </option>
+            <option> 5 - Alex Dahling </option>
+            <option> 11 - Chase Rankin </option>
+            <option> 13 - Xavier Bledson </option>
+            <option> 14 - Jordan Walters </option>
+            <option> 20 - Shaquile Rombley </option>
+            <option> 21 - Tyler Mckinley </option>
+            <option> 23 - Simon Wilbar </option>
+            <option> 24 - Me'Kell Burries </option>
+            <option> 25 - Luke Hedrick </option>
+            <option> 32 - Jordan Guest </option>
+            <option> 35 - Cam Henry </option>
+          </select>
+      </div>
+      </div>
+
+      <center>
+        <span>
+       <input class="add-date" type="date" placeholder="Placeholder Text">
+       </span>
+      <button class="btn btn-outline-dark submit" id="submit" type="submit" value="submit">Submit</button>
+      </center>
+      </div>
+                <span>
+
+                </span>
+            </form>
+        </div>
+        <center>
+          <button class="myclass btn-lg">Export Data to CSV</button>
+        </center>
+  </div>
+
+        <div class="viewalljob">
+            <h2>Possesion Tracker</h2>
+            <table id="stint-table" class="display" cellspacing="0" width="80%">
+                <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>P1</th>
+                    <th>P2</th>
+                    <th>P3</th>
+                    <th>P4</th>
+                    <th>P5</th>
+                    <!-- <th>Opponent</th>
+                    <th>Rank</th> -->
+                    <th>Arena</th>
+                    <th>Type</th>
+                    <th>Pos</th>
+                    <th>Start</th>
+                    <th>Play Type</th>
+                    <th>Passes</th>
+                    <th>Movement</th>
+                    <th>Shot </th>
+                    <th>Location</th>
+                    <th>Result</th>
+                    <th>Points</th>
+                    <th>Player</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="index.js">
+
+    </script>
+  </body>
+</html>
