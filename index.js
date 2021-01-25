@@ -29,9 +29,9 @@ $('#submit').on('click', function(e) {
     var p3 = $(".add-sf").val();
     var p4 = $(".add-pf").val();
     var p5 = $(".add-c").val();
-    // var opponent = $(".add-opponent").val();
+    var opponent = $(".add-opponent").val();
     // var rank = $(".add-rank").val();
-    var arena = $(".add-arena").val();
+    // var arena = $(".add-arena").val();
 
     var type = $(".add-type").val();
     var start = $(".add-flow-start").val();
@@ -50,9 +50,9 @@ $('#submit').on('click', function(e) {
         p3,
         p4,
         p5,
-        // opponent,
+        opponent,
         // rank,
-        arena,
+        // arena,
         type,
         index,
         start,
